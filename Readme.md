@@ -7,7 +7,13 @@
 
 ### shelf
 
-* A light golang ORM for RethinkDB. :beers:
+:beers:
+
+* A light golang ORM for RethinkDB.
+
+### Dependencies
+
+* [dancannon/gorethink](https://github.com/dancannon/gorethink)
 
 ### License
 MIT

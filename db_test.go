@@ -9,7 +9,7 @@ func TestDB(t *testing.T) {
 
 	db, err := Open(r.ConnectOpts{
 		Address: "localhost:28015",
-	})
+	}, "test")
 
 	a.Equal(err, nil)
 	a.Equal(db.IsConnected(), true)
